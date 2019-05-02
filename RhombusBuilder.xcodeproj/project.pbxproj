@@ -12,6 +12,8 @@
 		AC27249D227B143300F3509F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27249B227B143300F3509F /* Main.storyboard */; };
 		AC27249F227B143500F3509F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC27249E227B143500F3509F /* Assets.xcassets */; };
 		AC2724A2227B143500F3509F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2724A0227B143500F3509F /* LaunchScreen.storyboard */; };
+		AC2724AA227B148900F3509F /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2724A9227B148900F3509F /* Lines.swift */; };
+		AC2724AC227B284300F3509F /* Rhombus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2724AB227B284300F3509F /* Rhombus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC27249E227B143500F3509F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2724A1227B143500F3509F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2724A3227B143500F3509F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2724A9227B148900F3509F /* Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lines.swift; sourceTree = "<group>"; };
+		AC2724AB227B284300F3509F /* Rhombus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhombus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				AC272497227B143300F3509F /* AppDelegate.swift */,
 				AC272499227B143300F3509F /* ViewController.swift */,
+				AC2724A9227B148900F3509F /* Lines.swift */,
+				AC2724AB227B284300F3509F /* Rhombus.swift */,
 				AC27249B227B143300F3509F /* Main.storyboard */,
 				AC27249E227B143500F3509F /* Assets.xcassets */,
 				AC2724A0227B143500F3509F /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2724AC227B284300F3509F /* Rhombus.swift in Sources */,
 				AC27249A227B143300F3509F /* ViewController.swift in Sources */,
 				AC272498227B143300F3509F /* AppDelegate.swift in Sources */,
+				AC2724AA227B148900F3509F /* Lines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

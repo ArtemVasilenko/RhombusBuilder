@@ -1,18 +1,16 @@
-//
-//  ViewController.swift
-//  RhombusBuilder
-//
-//  Created by Артем on 5/2/19.
-//  Copyright © 2019 Артем. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var rhombus: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        rhombus = Rhombus(rhombusData: RhombusData(x: 100, y: 100, length: 100, width: 100))
+        self.view.addSubview(rhombus)
+        
     }
 
 
