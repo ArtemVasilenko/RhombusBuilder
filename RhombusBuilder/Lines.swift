@@ -44,7 +44,7 @@ class Line: UIView {
         switch self.numberSide {
         case .side1?:
             for i in 0..<self.length {
-                let framePoint = CGRect(x: i, y: self.length + i, width: self.width, height: self.width)
+                let framePoint = CGRect(x: i, y: self.length - i, width: self.width, height: self.width)
                 let myView = UIView(frame: framePoint)
                 myView.backgroundColor = .red
                 
@@ -53,7 +53,7 @@ class Line: UIView {
             
         case .side2?:
             for i in 0..<self.length {
-                let framePoint = CGRect(x: i, y: self.length - i, width: self.width, height: self.width)
+                let framePoint = CGRect(x: -i, y: self.length - i, width: self.width, height: self.width)
                 let myView = UIView(frame: framePoint)
                 myView.backgroundColor = .green
                 
@@ -62,7 +62,7 @@ class Line: UIView {
             
         case .side3?:
             for i in 0..<self.length {
-                let framePoint = CGRect(x: i - 1, y: self.length + i, width: self.width, height: self.width)
+                let framePoint = CGRect(x: i, y: self.length + i, width: self.width, height: self.width)
                 let myView = UIView(frame: framePoint)
                 myView.backgroundColor = .blue
                 
@@ -71,9 +71,9 @@ class Line: UIView {
             
         case .side4?:
             for i in 0..<self.length {
-                let framePoint = CGRect(x: i + 1, y: self.length, width: self.width, height: self.width)
+                let framePoint = CGRect(x: i, y: self.length - 1, width: self.width, height: self.width)
                 let myView = UIView(frame: framePoint)
-                myView.backgroundColor = .black
+                myView.backgroundColor = .orange
                 
                 arrView.append(myView)
             }
