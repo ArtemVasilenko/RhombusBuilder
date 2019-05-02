@@ -71,7 +71,7 @@ class Line: UIView {
             
         case .side4?:
             for i in 0..<self.length {
-                let framePoint = CGRect(x: i, y: self.length - 1, width: self.width, height: self.width)
+                let framePoint = CGRect(x: -i, y: self.length + i, width: self.width, height: self.width)
                 let myView = UIView(frame: framePoint)
                 myView.backgroundColor = .orange
                 
